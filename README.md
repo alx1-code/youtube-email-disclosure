@@ -72,8 +72,7 @@ Server: scaffolding on HTTPServer2
 {  
   "error": {  
     "code": 400,  
-    "message": "Invalid value at 'context' (type.googleapis.com/youtube.api.pfiinnertube.YoutubeApiInnertube.InnerTubeContext), 1\nInvalid value at 'browse_id' (TYPE_STRING), 2\n...",  
-    ...  
+    "message": "Invalid value at 'context' (type.googleapis.com/youtube.api.pfiinnertube.YoutubeApiInnertube.InnerTubeContext), 1\nInvalid value at 'browse_id' (TYPE_STRING), 2\n...",    
   }  
 }  
 ```  
@@ -113,8 +112,7 @@ Content-Type: application/json
   "channelIds": ["UCeGCG8SYUIgFO13NyOe6reQ"],  
   "mask": {  
     "channelId": true,  
-    "monetizationStatus": true,  
-    ...  
+    "monetizationStatus": true,    
   }  
 }  
 ```  
