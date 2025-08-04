@@ -168,8 +168,7 @@ Content-Type: application/json
 
 С помощью `req2proto` я выяснил, что в запросе есть **два секретных параметра**:  
 ```proto
-message GetCreatorChannelsRequest {  
-  ...  
+message GetCreatorChannelsRequest {    
   bool critical_read = 6;  // Не давал эффекта  
   bool include_suspended = 7;  // Ключевой параметр!  
 }  
@@ -178,7 +177,6 @@ message GetCreatorChannelsRequest {
 При активации `includeSuspended` в ответе появились новые данные:  
 ```json
 {  
-  ...  
   "contentOwnerAssociation": {  
     "externalContentOwnerId": "Ks_zqCBHrAbeQqsVRGL7gw",  
     "createTime": { "seconds": "1693939737" },  
