@@ -23,7 +23,7 @@ Content-Length: 164
       "clientVersion": "2.20241101.01.00"
     }
   },
-  "browseId": 1  # ← Передаем число вместо строки
+  "browseId": 1 
 }
 
 **Ответ:**  
