@@ -25,8 +25,8 @@ Content-Length: 164
   },
   "browseId": 1 
 }
-
-**Ответ:**  
+```
+**Ответ от сервера:**  
 ```http
 HTTP/2 400 Bad Request  
 Content-Type: application/json; charset=UTF-8  
