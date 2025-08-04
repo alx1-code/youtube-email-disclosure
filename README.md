@@ -42,8 +42,7 @@ Server: scaffolding on HTTPServer2
         "reason": "invalid"  
       }  
     ],  
-    "status": "INVALID_ARGUMENT",  
-    ...  
+    "status": "INVALID_ARGUMENT",    
   }  
 }  
 ```  
